@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  margin: 0;
+  outline: none;
+  padding: 0;
+  user-select: none;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  height: 100%;
+  width: 100%;
+}
