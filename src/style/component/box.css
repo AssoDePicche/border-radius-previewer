@@ -1,0 +1,19 @@
+#box {
+  aspect-ratio: 1;
+  height: 26rem;
+  position: relative;
+}
+
+#box::after {
+  content: "260x260";
+  color: var(--clr-neutral-dark);
+  font-size: 1.6rem;
+  font-weight: 600;
+  position: absolute;
+  margin-top: 50%;
+  margin-left: calc(50% - 3rem);
+}
+
+#box {
+  border: var(--border);
+}
