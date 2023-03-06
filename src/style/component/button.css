@@ -1,0 +1,16 @@
+.btn {
+  color: var(--clr-neutral-dark);
+  border: var(--border);
+  border-radius: var(--border-radius);
+  display: block;
+  font-weight: 600;
+  height: 4.6rem;
+  padding: 0 1.6rem;
+  transition: var(--transition);
+  width: 26rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: var(--box-shadow);
+}
