@@ -1,0 +1,19 @@
+.input {
+  border: var(--border);
+  border-radius: var(--border-radius);
+  color: var(--clr-neutral-dark);
+  display: block;
+  height: 4.6rem;
+  padding: 0 1.6rem;
+  transition: var(--transition);
+  width: 26rem;
+}
+
+.input::placeholder {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.input:focus {
+  box-shadow: var(--box-shadow);
+}
