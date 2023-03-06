@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style/style.css" />
+    <script defer type="module" src="src/script/script.js"></script>
+    <title>Border Radius Previewer</title>
+  </head>
+
+  <body>
+    <main class="container">
+      <h1 class="title">Border Radius Previewer (px or %)</h1>
+
+      <div id="box"></div>
+
+      <input
+        type="text"
+        placeholder="top left border radius"
+        class="input"
+        id="topLeft"
+        autofocus
+      />
+      <input
+        type="text"
+        placeholder="top right border radius"
+        class="input"
+        id="topRight"
+      />
+      <input
+        type="text"
+        placeholder="bottom left border radius"
+        class="input"
+        id="bottomLeft"
+      />
+      <input
+        type="text"
+        placeholder="bottom right border radius"
+        class="input"
+        id="bottomRight"
+      />
+
+      <button class="btn" id="copy">Copy CSS</button>
+
+      <footer>
+        <p class="copyright">Samuel do Prado Rodrigues &copy; 2023</p>
+      </footer>
+    </main>
+  </body>
+</html>
