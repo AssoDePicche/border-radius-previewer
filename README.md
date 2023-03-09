@@ -11,3 +11,7 @@ The border-radius property can have multiple values changed. Preview how the sha
 ## Bonus features
 
 - [ ] User can change all 8 possible values of the border-radius in order to create a complex shape
+
+## Live preview
+
+You can check it out by clicking [here](https://assodepicche-border-radius-previewer.netlify.app/).
